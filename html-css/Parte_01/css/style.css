@@ -1,0 +1,21 @@
+:root {
+    --Gray: #cccccc;
+    --Red: red;
+}
+
+body {
+    background-color: var(--Gray);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+em strong {
+    color: var(--Red);
+}
