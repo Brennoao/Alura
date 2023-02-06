@@ -1,8 +1,10 @@
 :root {
     --Gray: #bbbbbb;
     --Gray02: #cccccc;
+    --Gray3: #555555;
     --Black: #000000;
     --OrangeYellow: #c78C19;
+    --DarkOrange: darkorange;
     --Green: #088C19;
     --White: #ffffff;
 }
@@ -64,7 +66,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -79,4 +81,38 @@ form label, form p {
 
 .Checkbox {
     margin: 20px 0;
+}
+
+.Enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: var(--OrangeYellow);
+    color: var(--White);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Enviar:hover {
+    background: var(--DarkOrange);
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+    
+}
+
+thead {
+    background: var(--Gray3);
+    color: var(--White);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid var(--Black);
+    padding: 8px 15px;
 }
