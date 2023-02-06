@@ -1,0 +1,96 @@
+:root {
+    --Gray: #bbbbbb;
+    --Gray02: #cccccc;
+    --Gray3: #555555;
+    --Black: #000000;
+    --OrangeYellow: #c78C19;
+    --DarkOrange: darkorange;
+    --Green: #088C19;
+    --White: #ffffff;
+}
+
+header {
+    background: var(--Gray);
+    padding: 20px 0;
+}
+
+.Caixa {
+    position: relative;
+    width: 940px;
+    right: 0;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--Black);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--OrangeYellow);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px 0;
+}
+.Copyright {
+    color: var(--White);
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.Banner {
+    width: 100%;
+}
+
+.Title-Principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.Principal P {
+    margin: 0 0 1em;
+}
+
+.Principal strong {
+    font-weight: bold;
+}
+
+.Principal em {
+    font-style: italic;
+}
+
+.ImagemBenefícios {
+    width: 60%;
+}
+
+.Utensílios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
