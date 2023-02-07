@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_Contact.css">
+    <link rel="stylesheet" href="../css/Style_Header.css">
+    <link rel="stylesheet" href="../css/Style_Footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="Caixa">
+            <h1><img src="../img/logo.png" alt="Logo"></h1>
+
+            <nav class="Navegação">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Produtos.html">Produtos</a></li>
+                    <li><a href="./Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="NomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="NomeSobrenome" class="Input-Padrão" required>
+
+            <label for="Email">Email</label>
+            <input type="email" placeholder="seuemail@seudominio.com" id="Email" class="Input-Padrão" required>
+
+            <label for="Telefone">Telefone</label>
+            <input type="tel" placeholder="(xx) xxxxx-xxxx" id="Telefone" class="Input-Padrão" required>
+
+            <label for="Menssagem">Mensagem</label>
+            <textarea name="" id="Mensagem" cols="71" rows="10" class="Input-Padrão" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="Radio-Email"><input type="radio" name="Contato" id="Radio-Email" value="Email">Email</label>
+                
+
+                <label for="radio-Telefone"><input type="radio" name="Contato" value="Telefone" id="radio-Telefone">Telefone</label>
+                
+
+                <label for="Radio-Whatsapp"><input type="radio" name="Contato" value="Whats" checked id="Radio-Whatsapp">Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <p>Qual orário prefere ser atendido?</p>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="Checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar Formulário" class="Enviar">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda-Feira</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quarta-Feira</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sexta-Feira</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </form>
+    </main>
+
+    <footer>
+        <img src="../img/logo-branco.png" alt="Logo">
+        <p class="Copyright">&copy; Copyright barbearia Alura - 2019</p>
+    </footer>
+</body>
+</html>

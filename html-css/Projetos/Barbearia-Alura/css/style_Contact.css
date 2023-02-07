@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.Input-Padrão {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset p {
+    padding-bottom: 10px;
+}
+
+fieldset select {
+    background-color: var(--OrangeYellow);
+    border-radius: 5px;
+    color: var(--White);
+}
+
+.Checkbox {
+    margin: 20px 0;
+}
+
+.Enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: var(--OrangeYellow);
+    color: var(--White);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Enviar:hover {
+    background: var(--DarkOrange);
+    transform: scale(1.1);
+    margin-left: 20px;
+}
+
+table {
+    margin: 20px 0 40px;
+    font-weight: bold;
+}
+
+thead {
+    background: var(--Gray3);
+    color: var(--White);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid var(--Black);
+    padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        width: 100vw;
+    }
+
+    form {
+        margin: 10%;
+    }
+
+    .Enviar {
+        width: 65%;
+    }
+}
