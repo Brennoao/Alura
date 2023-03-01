@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-        <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-        <a href="">Instagram</a>
-        <a href="">Github</a>
-        <img src="./img/Imagem.png" alt="Imagem">
+    <header class="Cabeçalho">
+        <nav class="Cabeçalho_Menu">
+            <a class="Cabeçalho_Menu_Link" href="index.html">Home</a>
+            <a class="Cabeçalho_Menu_Link" href="./html/About.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao_Links_Subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href=""><ion-icon name="logo-github"></ion-icon> Github</a>
+                <a class="apresentacao__links__link" href=""><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a>
+                <a class="apresentacao__links__link" href=""><ion-icon name="logo-twitch"></ion-icon> Twitch</a>
+            </div>
+        </section>
+        <img src="./assets/img/Imagem.png" alt="Imagem">
     </main>
-    <footer></footer>
+    <footer class="Rodapé">Desenvolvido por Alura.</footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
