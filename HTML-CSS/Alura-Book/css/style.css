@@ -1,0 +1,19 @@
+@import url(../css/Header.css);
+@import url(../css/Banner.css);
+@import url(../css/Carrossel.css);
+
+:root {
+    --CordeFundo: #EBECEE;
+    --Branco: #ffffff;
+    --Laranja: #EB9B00;
+    --Azul-Degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --Font-Principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--CordeFundo);
+    font-family: var(--Font-Principal);
+    font-size: 16px;
+    font-weight: 400;
+}   

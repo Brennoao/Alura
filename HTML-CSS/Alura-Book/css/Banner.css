@@ -1,0 +1,34 @@
+.Banner {
+    background: var(--Azul-Degrade);
+    color: var(--Branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.Banner__Titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Banner__Texto { 
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.Banner__Pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--Branco);
+    color: var(--Branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.Banner__Pesquisa::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--Branco);
+    background: url(../svg/Vector.svg) no-repeat;
+    background-position: 1em;
+}

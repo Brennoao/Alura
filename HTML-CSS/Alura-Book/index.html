@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Book</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="Container">
+            <input type="checkbox" id="Menu" class="Container__Botao">
+            <label for="Menu">
+                <span class="cabeçalho_menu-hamburguer Container__Imagem"></span>
+            </label>
+            <ul class="Lista-Menu">
+                <li class="Lista-Menu__Titulo">Categorias</li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
+            </ul>
+            <img src="./svg/Logo.svg" alt="Logo" class="Container__Imagem">
+        </div>
+        <div class="Container">
+            <a href="#"><img src="./svg/Favoritos.svg" alt="Favoritos" class="Container__Imagem"></a>
+            <a href="#"><img src="./svg/Compras.svg" alt="Compras" class="Container__Imagem"></a>
+            <a href="#"><img src="./svg/Usuario.svg" alt="Usuario" class="Container__Imagem"></a>
+        </div>
+    </header>
+
+    <section class="Banner">
+        <h2 class="Banner__Titulo">Já sabe por onde começar?</h2>
+        <p class="Banner__Texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" placeholder="Qual será sua próxima leitura?" class="Banner__Pesquisa">
+    </section>
+
+    <section class="Carrosel">
+        <h2 class="Carrossel__Titulo">Novos Lançamentos</h2>
+
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./svg/01ApacheKafka.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/02Portugol.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/03Tuning.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/04Javascript.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/05Arquitetura.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/06Nodejs.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/07ReactNative.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/08Gestão.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/09Liderança.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/10Gestão2.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/11MetricasAgeis.svg" alt=""></div>
+              <div class="swiper-slide"><img src="./svg/12Construct2.svg" alt=""></div>
+            </div>
+            
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+    </script>
+</body>
+</html>
