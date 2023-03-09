@@ -1,0 +1,30 @@
+.Topicos {
+    background: var(--Azul-Degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.Topicos_Titulo {
+    color: var(--Branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.Topicos_Lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Topicos_Item {
+    margin: 2em 0.5em;
+}
+
+.Topicos_Link {
+    color: var(--Branco);
+    padding: 1em;
+    background-color: var(--Laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}

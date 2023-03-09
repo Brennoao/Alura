@@ -1,12 +1,17 @@
 @import url(../css/Header.css);
 @import url(../css/Banner.css);
 @import url(../css/Carrossel.css);
+@import url(../css/Topicos.css);
+@import url(../css/Contato.css);
+@import url(../css/Rodape.css);
 
 :root {
     --CordeFundo: #EBECEE;
     --Branco: #ffffff;
     --Laranja: #EB9B00;
+    --Black: rgba(0, 0, 0, 0.25);
     --Azul-Degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --Azul: #002F52;
 
     --Font-Principal: 'Poppins', sans-serif;
 }

@@ -1,0 +1,37 @@
+.Contato {
+    background-color: var(--Branco);
+    padding: 1em;
+}
+
+.Contato_Titulo, .Contato_Texto {
+    background: var(--Azul-Degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: text;
+}
+
+.Contato_Titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Contato_Texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.Contato_Email {
+    padding: 1em;
+    border: 1px solid var(--Azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--Azul);
+}
+
+.Contato_Email::placeholder {
+    align-items: center;
+    font-family: var(--Font-Principal);
+    color: var(--Azul);
+    background: url(../svg/Email.svg) no-repeat;
+    padding-left: 2em;
+}
