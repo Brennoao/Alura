@@ -55,3 +55,51 @@
 .Container__Botao {
     display: none;
 }
+
+.Container_Titulo, .Opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .Container_Titulo {
+        font-family: var(--Font-Secundaria);
+        font-size: 30px;
+    }
+
+    .Container_Titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .Container_Titulo-Negrito {
+        font-weight: 700;
+    }
+
+    .Opcoes {
+        display: flex;
+    }
+
+    .Opcoes_Item {
+        padding: 0 1em;
+        text-transform: uppercase;
+        color: var(--Black);
+    }
+
+    .Opcoes_Link {
+        text-decoration: none;
+        color: var(--Black);
+    }
+
+    .Container_Imagem-Transparent, .cabeçalho_menu-hamburguer {
+        display: none;
+    }
+
+    .Opcoes_Botao:checked ~ .Lista-Menu {
+        display: block;
+        width: auto;
+    }
+
+    .Opcoes_Botao {
+        display: none;
+    }
+}

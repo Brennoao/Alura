@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header class="cabeçalho">
@@ -31,9 +27,29 @@
                 <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
             </ul>
             <img src="./svg/Logo.svg" alt="Logo" class="Container__Imagem">
+            <h1 class="Container_Titulo"><b class="Container_Titulo-Negrito">Alura</b>books</h1>
         </div>
+
+        <ul class="Opcoes">
+            <input type="checkbox" id="Opcoes-Menu" class="Opcoes_Botao">
+            <label for="Opcoes-Menu">
+                <li class="Opcoes_Item">Categorias</li>
+            </label>
+
+            <ul class="Lista-Menu">
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
+                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
+            </ul>
+
+            <li class="Opcoes_Item"><a href="#" class="Opcoes_Link">Favoritos</a></li>
+            <li class="Opcoes_Item"><a href="#" class="Opcoes_Link">Minha estante</a></li>
+        </ul>
+
         <div class="Container">
-            <a href="#"><img src="./svg/Favoritos.svg" alt="Favoritos" class="Container__Imagem"></a>
+            <a href="#"><img src="./svg/Favoritos.svg" alt="Favoritos" class="Container__Imagem Container_Imagem-Transparent"></a>
             <a href="#"><img src="./svg/Compras.svg" alt="Compras" class="Container__Imagem"></a>
             <a href="#"><img src="./svg/Usuario.svg" alt="Usuario" class="Container__Imagem"></a>
         </div>
@@ -114,8 +130,10 @@
     </section>
 
     <section class="Contato">
-        <h2 class="Contato_Titulo">Fique por dentro das novidades!</h2>
-        <p class="Contato_Texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="Contato_Descricao">
+            <h2 class="Contato_Titulo">Fique por dentro das novidades!</h2>
+            <p class="Contato_Texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="Contato_Email">
     </section>
 
