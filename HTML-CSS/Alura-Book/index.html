@@ -15,16 +15,16 @@
     <header class="cabeçalho">
         <div class="Container">
             <input type="checkbox" id="Menu" class="Container__Botao">
-            <label for="Menu">
+            <label for="Menu" class="Container_Rotulo">
                 <span class="cabeçalho_menu-hamburguer Container__Imagem"></span>
             </label>
             <ul class="Lista-Menu">
                 <li class="Lista-Menu__Titulo">Categorias</li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
             </ul>
             <img src="./svg/Logo.svg" alt="Logo" class="Container__Imagem">
             <h1 class="Container_Titulo"><b class="Container_Titulo-Negrito">Alura</b>books</h1>
@@ -32,16 +32,16 @@
 
         <ul class="Opcoes">
             <input type="checkbox" id="Opcoes-Menu" class="Opcoes_Botao">
-            <label for="Opcoes-Menu">
+            <label for="Opcoes-Menu" class="Opcoes_Rotulo">
                 <li class="Opcoes_Item">Categorias</li>
             </label>
 
             <ul class="Lista-Menu">
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
-                <li class="Lista-Menu__Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Programação</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Front-End</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Infraestrutura</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Bussines</a></li>
+                <li class="Lista-Menu_Item"><a href="#" class="Lista-Menu__Link">Design e UX</a></li>
             </ul>
 
             <li class="Opcoes_Item"><a href="#" class="Opcoes_Link">Favoritos</a></li>
@@ -62,7 +62,7 @@
     </section>
 
     <section class="Carrosel">
-        <h2 class="Carrossel__Titulo">Novos Lançamentos</h2>
+        <h2 class="Carrossel__Titulo">últimos Lançamentos</h2>
 
         <div class="Carrossel_Container">
 
@@ -103,7 +103,65 @@
                         <h2 class="Descricao_Titulo-Livro">Angular 11 e Firebase</h2>
                         <p class="Descricao_Texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                     </div>
-                    <img src="./svg/Perfil-escritora 2.svg" alt="Imagem Angular" class="Descricao_Imagem">
+                    <img src="./svg/Angular.svg" alt="Imagem Angular" class="Descricao_Imagem">
+                </div>
+
+                <div class="Card-Botoes">
+                    <ul class="Botoes">
+                        <li class="Botoes_item"><img src="./svg/Favoritos.svg" alt="Botão de Favoritos"></li>
+                        <li class="Botoes_item"><img src="./svg/Compras.svg" alt="Botão de Compras"></li>
+                    </ul>
+
+                    <a href="#" class="Botoes_Ancora">Saiba Mais</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Carrosel">
+        <h2 class="Carrossel__Titulo">últimos Lançamentos</h2>
+
+        <div class="Carrossel_Container">
+
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./svg/01ApacheKafka.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/02Portugol.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/03Tuning.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/04Javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/05Arquitetura.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/06Nodejs.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/07ReactNative.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/08Gestão.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/09Liderança.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/10Gestão2.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/11MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/12Construct2.svg" alt=""></div>
+                </div>
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="Card">
+                <div class="Card_Descricao">
+                        <div class="descricao">
+                        <h3 class="Descricao_Titulo">Autora do Mês</h3>
+                        <h2 class="Descricao_Titulo-Livro">Juliana Agarikov</h2>
+                        <p class="Descricao_Texto">Analista de sistemas e escritora, Juliana é especialista em Front-End</p>
+                    </div>
+                    <img src="./svg/Perfil-escritora.svg" alt="Imagem Angular" class="Descricao_Imagem">
                 </div>
 
                 <div class="Card-Botoes">
