@@ -87,11 +87,44 @@
 
     .swiper-button-next, .swiper-button-prev {
         display: block;
-        top: 63%;
+        top: 60%;
     }
 
     .Card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .Carrossel_Container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
         width: 50%;
-        margin: 1em auto;
+    }
+
+    .Descricao_Titulo {
+        font-size: 32px;
+    }
+
+    .Descricao_Texto {
+        font-size: 16px;
+    }
+
+    .Descricao {
+        margin-right: 2em;
+    }
+
+    .Card {
+        width: 60%;
+        margin-left: 3em;
     }
 }

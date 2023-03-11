@@ -50,8 +50,8 @@
 
         <div class="Container">
             <a href="#"><img src="./svg/Favoritos.svg" alt="Favoritos" class="Container__Imagem Container_Imagem-Transparent"></a>
-            <a href="#"><img src="./svg/Compras.svg" alt="Compras" class="Container__Imagem"></a>
-            <a href="#"><img src="./svg/Usuario.svg" alt="Usuario" class="Container__Imagem"></a>
+            <a href="#" class="Container_Link"><img src="./svg/Compras.svg" alt="Compras" class="Container__Imagem"><p class="Container_Texto">Minha sacola</p></a>
+            <a href="#" class="Container_Link"><img src="./svg/Usuario.svg" alt="Usuario" class="Container__Imagem"><p class="Container_Texto">Meu perfil</p></a>
         </div>
     </header>
 
@@ -64,55 +64,59 @@
     <section class="Carrosel">
         <h2 class="Carrossel__Titulo">Novos Lançamentos</h2>
 
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <div class="Carrossel_Container">
 
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide"><img src="./svg/01ApacheKafka.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/02Portugol.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/03Tuning.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/04Javascript.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/05Arquitetura.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/06Nodejs.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/07ReactNative.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/08Gestão.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/09Liderança.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/10Gestão2.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/11MetricasAgeis.svg" alt=""></div>
-              <div class="swiper-slide"><img src="./svg/12Construct2.svg" alt=""></div>
-            </div>
-            
-          
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-          </div>
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-          <div class="Card">
-            <div class="Card_Descricao">
-                    <div class="descricao">
-                    <h3 class="Descricao_Titulo">Talvez você também se interesse por...</h3>
-                    <h2 class="Descricao_Titulo-Livro">Angular 11 e Firebase</h2>
-                    <p class="Descricao_Texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./svg/01ApacheKafka.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/02Portugol.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/03Tuning.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/04Javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/05Arquitetura.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/06Nodejs.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/07ReactNative.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/08Gestão.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/09Liderança.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/10Gestão2.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/11MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./svg/12Construct2.svg" alt=""></div>
                 </div>
-                <img src="./svg/Perfil-escritora 2.svg" alt="Imagem Angular" class="Descricao_Imagem">
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
 
-            <div class="Card-Botoes">
-                <ul class="Botoes">
-                    <li class="Botoes_item"><img src="./svg/Favoritos.svg" alt="Botão de Favoritos"></li>
-                    <li class="Botoes_item"><img src="./svg/Compras.svg" alt="Botão de Compras"></li>
-                </ul>
+            <div class="Card">
+                <div class="Card_Descricao">
+                        <div class="descricao">
+                        <h3 class="Descricao_Titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="Descricao_Titulo-Livro">Angular 11 e Firebase</h2>
+                        <p class="Descricao_Texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img src="./svg/Perfil-escritora 2.svg" alt="Imagem Angular" class="Descricao_Imagem">
+                </div>
 
-                <a href="#" class="Botoes_Ancora">Saiba Mais</a>
+                <div class="Card-Botoes">
+                    <ul class="Botoes">
+                        <li class="Botoes_item"><img src="./svg/Favoritos.svg" alt="Botão de Favoritos"></li>
+                        <li class="Botoes_item"><img src="./svg/Compras.svg" alt="Botão de Compras"></li>
+                    </ul>
+
+                    <a href="#" class="Botoes_Ancora">Saiba Mais</a>
+                </div>
             </div>
-          </div>
+
+        </div>
     </section>
 
     <section class="Topicos">
@@ -141,6 +145,33 @@
 
     <footer class="Rodape">
         <h2 class="Rodape_Titulo">Grupo Alura</h2>
+        <ul class="Lista_Rodape">
+            <li class="Lista-Rodape_Titulo">Educação</li>
+            <li class="Lista-Rodape_Item"><img src="./svg/CasaDoCodigo.svg" alt="Logo CasaDoCódigo"><a href="#" class="Lista-Rodape_Link">Casa do Código</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/Caelum.svg" alt="Logo Caelum"><a href="#" class="Lista-Rodape_Link">Caelum</a></li>
+        </ul>
+
+        <ul class="Lista_Rodape">
+            <li class="Lista-Rodape_Titulo">Educação Online</li>
+            <li class="Lista-Rodape_Item"><img src="./svg/Alura.svg" alt="Logo Alura"><a href="#" class="Lista-Rodape_Link">Alura</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/AluraEmpresas.svg" alt="Logo Alura para Empresas"><a href="#" class="Lista-Rodape_Link">Alura para Empresas</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/AluraLATAM.svg" alt="Logo Alura Latam"><a href="#" class="Lista-Rodape_Link">Alura Latam</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/AluraStart.svg" alt="Logo Alura Start"><a href="#" class="Lista-Rodape_Link">Alura Start</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/MusicDot.svg" alt="Logo MusicDot"><a href="#" class="Lista-Rodape_Link">MusicDot</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/AluraLingua.svg" alt="Logo Alura Lingua"><a href="#" class="Lista-Rodape_Link">Alura Lingua</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/PM3.svg" alt="Logo PM3"><a href="#" class="Lista-Rodape_Link">PM3</a></li>
+        </ul>
+
+        <ul class="Lista_Rodape">
+            <li class="Lista-Rodape_Titulo">Comunidade</li>
+            <li class="Lista-Rodape_Item"><img src="./svg/HipstersTech.svg" alt="Logo Hipsters ponto Tech"><a href="#" class="Lista-Rodape_Link">Hipsters ponto Tech</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/ScubaDev.svg" alt="Logo Scuba Dev"><a href="#" class="Lista-Rodape_Link">Scuba Dev</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/LayersTech.svg" alt="Logo Layers ponto Tech"><a href="#" class="Lista-Rodape_Link">Layers ponto Tech</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/LikeABoss.svg" alt="Logo Like a Boss"><a href="#" class="Lista-Rodape_Link">Like a Boss</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/CarreiraSemFronteira.svg" alt="Logo Carreira sem Fronteira"><a href="#" class="Lista-Rodape_Link">Carreira sem Fronteira</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/HipstersJobs.svg" alt="Logo Hipsters ponto Jobs"><a href="#" class="Lista-Rodape_Link">Hipsters ponto Jobs</a></li>
+            <li class="Lista-Rodape_Item"><img src="./svg/GUJ.svg" alt="Logo GUJ"><a href="#" class="Lista-Rodape_Link">GUJ</a></li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

@@ -6,3 +6,51 @@ hr {
     background-color: var(--Branco);
     padding: 1em;
 }
+
+.Lista_Rodape {
+    display: none;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+    .Rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Lista_Rodape {
+        display: block;
+    }
+
+    .Lista-Rodape_Item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .Lista-Rodape_Link {
+        color: var(--Cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .Lista-Rodape_Titulo {
+        font-size: 14px;
+        color: var(--Cinza-Claro);
+    }
+
+    .Rodape_Titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .Lista_Rodape {
+        border-left: 1px solid var(--Cinza-Claro);
+        padding-left: 1em;
+    }
+
+    .Rodape {
+        padding: 3em 0;
+    }
+}

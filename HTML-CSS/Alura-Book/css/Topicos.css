@@ -33,4 +33,11 @@
     .Topicos_Titulo, .Topicos_Link {
         font-size: 24px;
     }
+
+}
+
+@media screen and (min-width: 1728px){
+    .Topicos {
+        padding: 3em 30vw;
+    }
 }
