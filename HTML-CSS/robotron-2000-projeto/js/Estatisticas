@@ -1,0 +1,36 @@
+const pecas = {
+    "bracos": {
+        "forca": 29,
+        "poder": 35,
+        "energia": -21,
+        "Velocidade": -5
+    },
+    
+    "blindagem": {
+        "forca": 41,
+        "poder": 20,
+        "energia": 0,
+        "Velocidade": -20
+    },
+
+    "nucleus": {
+        "forca": 0,
+        "poder": 7,
+        "energia": 40,
+        "Velocidade": -4
+    },
+
+    "pernas": {
+        "forca": 27,
+        "poder": 21,
+        "energia": -32,
+        "Velocidade": 43
+    },
+
+    "foguetes": {
+        "forca": 0,
+        "poder": 28,
+        "energia": 0,
+        "Velocidade": -2
+    }
+}
